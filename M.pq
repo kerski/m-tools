@@ -32,7 +32,7 @@
      *
      * :: [Bool] -> Bool
      */
-    And = List.AllTrue,
+    And = (l as list, add as any) => List.AllTrue(l),
 
     /**
      * Check if any elements of a list satisfy a given predicate.
